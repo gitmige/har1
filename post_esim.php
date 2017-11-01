@@ -17,10 +17,10 @@
 </form>
 
 <?php
-$btn=$S_POST['btnSend'];
-if(isset($btnSend)) {
-    $etu=$S_POST['en'];
-    $etu=$S_POST['sn'];
+//$btn=$POST['btnSend'];
+if(isset($POST['btnSend'])) {
+    $etu=$POST['en'];
+    $etu=$POST['sn'];
     echo 'Hei'.$etu.' '.$Suk;
 }
 ?>

@@ -1,0 +1,17 @@
+CREATE DATABASE har1;
+Use har1;
+GRANT ALL on har1.* TO 'webuser'@'localhost' IDENTIFIED BY 'webpass';
+
+CREATE TABLE opiskelija(
+idOpiskelija INT PRIMARY KEY AUTO_INCREMENT,
+Etunimi VARCHAR(20),
+Sukunimi VARCHAR(20),
+Syntymavuosi SMALLINT
+);
+
+INSERT INTO opiskelija (Etunimi, Sukunimi, Syntymavuosi)
+VALUES('Ville','Virtanen','1991');
+INSERT INTO opiskelija (Etunimi, Sukunimi, Syntymavuosi)
+VALUES('Matti','Makitalo','1991');
+INSERT INTO opiskelija (Etunimi, Sukunimi, Syntymavuosi)
+VALUES('Maija','Makinen','1991');
