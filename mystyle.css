@@ -1,0 +1,19 @@
+#menu{
+  float:left;
+  width: 150px;
+  background-color: #ccebff;
+  border-radius: 10px;
+}
+menu ul{
+  list-style-type: none;
+}
+#menu ul li a:hover{
+  background-color: #99ff99;
+}
+
+#content{
+  margin-left: 200px;
+}
+h1{
+  color: #3385ff;
+}
