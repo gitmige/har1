@@ -2,7 +2,7 @@
 	try
 	{
 	 $conn_string = "mysql:host=localhost;dbname=har1";
-	 $db = new PDO ($conn_string, "my_user", "my_pass");
+	 $db = new PDO ($conn_string, "webuser", "webpass");
 	 $db->setAttribute (PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	 print ("Connected\n");
 	}
